@@ -7,6 +7,7 @@ screen.title(f'U.S. States Game')
 image = 'blank_states_img.gif'
 screen.addshape(image)
 turtle.shape(image)
+turtle.tracer(0)
 correct_guess = []
 
 
